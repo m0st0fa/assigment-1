@@ -43,13 +43,14 @@ margin-bottom: 15px;
 
 }
 .button-design{
- color: #FFF;
- font-family: Lato;
- font-size: 20px;
- font-style: normal;
- font-weight: 700;
- border-radius: 8px;
-background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 12px 23px;
+    border-radius: 8px;
+    background: #E55473;
 }
 /* main section started */
 .section-container{
