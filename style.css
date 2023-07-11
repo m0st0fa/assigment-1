@@ -1,0 +1,234 @@
+/* header related styles */
+
+*{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+  
+}
+header{
+    display: flex;
+   padding-top: 30px;
+   padding-right: 50px;
+   padding-bottom: 0%;
+   padding-left: 40px;   
+   align-items: center;
+   background: rgba(229, 84, 115, 0.10)
+}
+.header-container{
+    margin-left: 30px;
+}
+.header-container img{
+    display: block;
+    width: 300px
+    height: 482px;
+}
+.flower{
+    width: 300px;
+    height: 400px;
+   padding-right: 30px;
+}
+.header-title{
+color: #272727;
+font-family: Lato;
+font-size: 60px;
+font-weight: 800px;
+margin-bottom: 32px;
+}
+.header-paragraph{
+font-size: 17px;
+font-weight: 400;
+margin-bottom: 15px;
+
+
+}
+.button-design{
+ color: #FFF;
+ font-family: Lato;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 700;
+ border-radius: 8px;
+background: #E55473;
+}
+/* main section started */
+.section-container{
+    text-align: center;
+    margin: 20px;
+}
+.main-section-paragraph{
+margin-top: 15px;
+}
+/* image section */
+.photo-section{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    gap: 8px;
+}
+.right-part-photo{
+    width: 400px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: center;
+    }
+
+.middle-part-photo{
+    width: 400px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: center;
+    }
+.left-part-photo{
+    width: 400px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: center;
+}
+.div-flower-1{
+   width: 300px;
+   height: 400px;
+   padding: 30px;
+   margin: 20px;
+
+
+}
+.div-flower-2{
+    width: 300px;
+   height: 400px;
+   padding: 30px;
+   margin: 20px;
+}
+.div-flower-3{
+    width: 300px;
+   height: 400px;
+   padding: 30px;
+   margin: 20px;
+
+}
+
+
+.same{
+text-align: center;
+text-decoration: underline;
+padding-top: 10px;
+}
+.feautre-flower{
+    margin-bottom: 20px;
+}
+.main-section-paragraph{
+    margin-bottom: 50px;
+}
+.hot-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+   background: rgba(229, 84, 115, 0.05);
+   margin-top: 30px;
+}
+.red{
+ color: #E55473;
+}
+.hot-contant p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+/* gallery commet */
+.gallery-image{
+    display: flex;
+    justify-content: center;
+    margin: 21px 6px;
+
+}
+.gallery-image-container {
+    display: flex;
+     justify-content: center;
+    margin: auto;
+}
+
+.gallery-image img {
+    width: 292px;
+    height: 330px;
+    margin: auto;
+}
+.gallery-description{
+display: flex;
+justify-content: center;
+flex-direction: column;
+  
+
+}
+
+.background-pic{
+        background-image: url("./flower/Rectangle\ 9.png");
+        display: flex;
+        justify-content: center;
+        background-position: 100%;
+        block-size: cover;
+        flex-direction: column;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 270px;
+        max-width: 1070px;
+        margin: auto;
+}
+/* form */
+.from{
+
+}
+.from-button{ 
+ color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 15px 104px;
+}
+.footer-contant{
+   background-color:#111010;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+    margin-top: 50px;
+    
+}
+.footer-contant p{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+.fotter-item{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+text-align: center;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.footer-contant h5{
+    margin-top: 20px;
+}
+.footer-color{
+    color:#E55473;
+}
